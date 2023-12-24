@@ -15,6 +15,10 @@
         android:theme="@style/Theme.RandomApps"
         tools:targetApi="31">
         <activity
+            android:name=".api.DetailRickActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
             android:name=".splash.SplashActivity"
             android:theme="@style/SplashTheme"
             android:exported="true">
