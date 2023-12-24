@@ -1,3 +1,13 @@
+# UAS LAB MP3		
+Membuat sebuah projek android studio dengan konsep bebas yang mengimplementasikan Intent, Recyclerview, Navigation Layout, Retrofit dan Local Database.		
+
+Anggota:		
+
+1. Imanda Tamara Br. Pasaribu - 211401011		
+2. Pieter Tanoto - 211401015		
+3.  Rizky Maulana Sembiring - 211401024		
+4. Jordan G. Gregorius Sinuhaji - 201401006
+
 # Deskripsi Project
 
 Projek Android Studio ini terinspirasi dari seri Rick and Morty, menggunakan API open-source yang dapat diakses melalui laman https://rickandmortyapi.com/. Aplikasi ini memiliki tiga halaman utama:
