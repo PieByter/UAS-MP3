@@ -7,4 +7,8 @@
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
+    <color name="sun">#FFF78A</color>
+    <color name="sky_200">#E0F4FF</color>
+    <color name="sky_500">#87C4FF</color>
+    <color name="sky_700">#39A7FF</color>
 </resources>
