@@ -61,4 +61,6 @@ dependencies {
     implementation("androidx.navigation:navigation-ui-ktx:2.7.5")
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.6.2")
 
+    //Glide load image
+    implementation ("com.github.bumptech.glide:glide:4.15.1")
 }
