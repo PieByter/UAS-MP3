@@ -12,11 +12,15 @@ import com.example.randomapps.profile.ProfileData
 import com.example.randomapps.profile.ProfileDataAdapter
 import com.example.randomapps.ui.ARG_PARAM1
 import com.example.randomapps.ui.ARG_PARAM2
+<<<<<<< HEAD
 /**
  * A simple [Fragment] subclass.
  * Use the [ProfileFragment.newInstance] factory method to
  * create an instance of this fragment.
  */
+=======
+
+>>>>>>> eff515b (Database Simple Add Note)
 class ProfileFragment : Fragment() {
     private var param1: String? = null
     private var param2: String? = null
@@ -59,6 +63,7 @@ class ProfileFragment : Fragment() {
     }
 
     companion object {
+<<<<<<< HEAD
         /**
          * Use this factory method to create a new instance of
          * this fragment using the provided parameters.
@@ -67,6 +72,8 @@ class ProfileFragment : Fragment() {
          * @param param2 Parameter 2.
          * @return A new instance of fragment ProfileFragment.
          */
+=======
+>>>>>>> eff515b (Database Simple Add Note)
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
             ProfileFragment().apply {

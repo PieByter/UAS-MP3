@@ -61,12 +61,45 @@
         android:text="Alive"
         android:textSize="18sp" />
 
+    <!-- Buttons for Update, Delete, and Note -->
     <Button
-        android:id="@+id/btn_save"
-        android:layout_width="80dp"
+        android:id="@+id/btn_update"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:onClick="onSaveButtonClick"
-        android:text="Save" />
+        android:layout_below="@id/item_status_rick"
+        android:layout_marginTop="10dp"
+        android:onClick="onUpdateButtonClick"
+        android:text="Update" />
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_status_rick"
+        android:layout_toRightOf="@id/btn_update"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:onClick="onDeleteButtonClick"
+        android:text="Delete" />
+
+    <!-- Note Tambahan dengan Tombol Update -->
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_status_rick"
+        android:layout_toRightOf="@id/btn_delete"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Description"/>
+
+    <EditText
+        android:id="@+id/et_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_description"
+        android:layout_marginTop="10dp"
+        android:hint="Add or edit note"/>
+
 
 </RelativeLayout>

@@ -24,14 +24,16 @@ class RickAdapter(val dataRick: List<ResultsItem>): RecyclerView.Adapter<RickAda
     }
 
     override fun getItemCount(): Int {
-        return dataRick.size
+        if(dataRick != null){
+            return dataRick.size
+        }
         return 0
     }
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
-        holder.nameRick.text = this.dataRick?.get(position)?.name
-        holder.statusRick.text = this.dataRick?.get(position)?.status
-        holder.speciesRick.text = this.dataRick?.get(position)?.species
+        holder.nameRick.text = dataRick?.get(position)?.name
+        holder.statusRick.text = dataRick?.get(position)?.status
+        holder.speciesRick.text = dataRick?.get(position)?.species
 
         Glide.with(holder.imgRick)
             .load(dataRick?.get(position)?.image)

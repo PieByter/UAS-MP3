@@ -18,6 +18,9 @@
             android:name=".api.DetailRickActivity"
             android:exported="false" />
         <activity
+            android:name=".ui.insert.NoteAddUpdateActivity"
+            android:exported="false" />
+        <activity
             android:name=".splash.SplashActivity"
             android:theme="@style/SplashTheme"
             android:exported="true">

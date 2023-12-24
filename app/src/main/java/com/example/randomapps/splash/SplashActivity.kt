@@ -8,6 +8,7 @@ import com.example.randomapps.MainActivity
 import com.example.randomapps.R
 
 @Suppress("DEPRECATION")
+
 class SplashActivity : AppCompatActivity() {
 
     private val SPLASH_DURATION: Long = 1000 // misalnya, 2 detik
