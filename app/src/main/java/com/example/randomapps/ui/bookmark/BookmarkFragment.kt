@@ -14,7 +14,6 @@ import com.example.randomapps.ui.ARG_PARAM2
  * create an instance of this fragment.
  */
 class BookmarkFragment : Fragment() {
-    // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
 
@@ -43,7 +42,6 @@ class BookmarkFragment : Fragment() {
          * @param param2 Parameter 2.
          * @return A new instance of fragment BookmarkFragment.
          */
-        // TODO: Rename and change types and number of parameters
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
             BookmarkFragment().apply {

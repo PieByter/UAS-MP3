@@ -25,7 +25,6 @@ import retrofit2.Response
  * create an instance of this fragment.
  */
 class HomeFragment : Fragment() {
-    // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
 
@@ -67,6 +66,7 @@ class HomeFragment : Fragment() {
         })
 
         return view
+        return inflater.inflate(R.layout.fragment_home, container, false)
     }
 
     companion object {
@@ -78,7 +78,6 @@ class HomeFragment : Fragment() {
          * @param param2 Parameter 2.
          * @return A new instance of fragment HomeFragment.
          */
-        // TODO: Rename and change types and number of parameters
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
             HomeFragment().apply {

@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">RandomApps</string>
+
+    <string-array name="data_name">
+        <item>Imanda Tamara Br. Pasaribu</item>
+        <item>Pieter Tanoto</item>
+        <item>Rizky Maulana Sembiring</item>
+        <item>Jordan G. Gregorius Sinuhaji</item>
+    </string-array>
+
+    <string-array name="data_nim">
+        <item>211401011</item>
+        <item>211401015</item>
+        <item>211401024</item>
+        <item>201401006</item>
+    </string-array>
+
+    <string-array name="data_photo">
+        <item>@drawable/imanda</item>
+        <item>@drawable/pieter</item>
+        <item>@drawable/rizky</item>
+        <item>@drawable/jordan</item>
+    </string-array>
 </resources>
