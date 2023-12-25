@@ -8,6 +8,9 @@ Anggota:
 3.  Rizky Maulana Sembiring - 211401024		
 4. Jordan G. Gregorius Sinuhaji - 201401006
 
+# Link Youtube
+Link Youtube : https://youtu.be/qD1ctFhPgNk
+
 # Deskripsi Project
 
 Projek Android Studio ini terinspirasi dari seri Rick and Morty, menggunakan API open-source yang dapat diakses melalui laman https://rickandmortyapi.com/. Aplikasi ini memiliki tiga halaman utama:
@@ -36,7 +39,3 @@ Halaman Profile memuat profil singkat tentang tim pengembang aplikasi. Setiap an
 ## Profile
 ![profile1](https://github.com/Pieter-T-211401015/UAS-MP3/blob/8f2017a7c26d40843c2e619b177d057479c33f16/Profile_1.png)
 ![profile2](https://github.com/Pieter-T-211401015/UAS-MP3/blob/8f2017a7c26d40843c2e619b177d057479c33f16/Profile_2.png)
-
-
-# Link Youtube
-Link Youtube : 
